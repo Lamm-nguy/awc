@@ -196,6 +196,7 @@ def Main():
         if OOption == "st":
             print("This will be unlock in next version of AWC")
         if "help" or "?" in OOption:
+            os.system("clear")
             OBanner()
 
                                                                                               
