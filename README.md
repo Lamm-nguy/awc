@@ -6,3 +6,6 @@
 - python osinter.py
 # Support OS
 This repostiory is not supported for Windows.
+# Language
+- Find "language = "vi""
+- Set language = "en"
