@@ -1,5 +1,6 @@
 import os
 import time
+from colorama import Fore, Back, Style
 
                                                                                    
 
@@ -16,6 +17,17 @@ def loadedscr():
     \|_______|\|_______|\|__|\|__|\|_______|\|_______|\|_______|   ___ 
                                                                   |\__\
                                                                   \|__| """)
+def loadedscrsohai():
+        print(f"""  
+     ___       ________  ________  _______   ________  ________  ___
+    |\  \     |\   __  \|\   __  \|\   ___ \|\  ___ \ |\   ___ \|\  \      
+    \ \  \    \ \  \|\  \ \  \|\  \ \  \_|\ \ \   __/|\ \  \_|\ \ \  \     
+     \ \  \    \ \  \\\  \ \   __  \ \  \ \\ \ \  \_|/_\ \  \ \\ \ \  \    
+     \ \  \____\ \  \\\  \ \  \ \  \ \  \_\\ \ \  \_|\ \ \  \_\\ \ \__\   
+      \ \_______\ \_______\ \__\ \__\ \_______\ \_______\ \_______\|__|   
+      \|_______|\|_______|\|__|\|__|\|_______|\|_______|\|_______|   ___ 
+                                                                     |\__\
+                                                                      \|__| """)
                                                                        
 os.system("clear")
 os.system("git clone https://github.com/mxrch/GHunt && git clone https://github.com/spider863644/PhoneNumber-OSINT && git clone https://github.com/knownsec/ZoomEye-python && git clone https://github.com/hippiiee/osgint && git clone https://github.com/megadose/holehe && git clone https://github.com/mrh0wl/Cloudmare && git clone https://github.com/p1ngul1n0/blackbird ")
@@ -23,12 +35,18 @@ os.system("pip install -r requirements.txt")
 os.system("clear")
 time.sleep(2)
 loadedscr()
-time.sleep(1)
+time.sleep(0.5)
 os.system("clear")
 time.sleep(1)
-loadedscr()
+loadedscrsohai()
 time.sleep(1)
 os.system("clear")
+
+class Color:
+    LR = colorama.Fore.LIGHTRED_EX
+    LB = colorama.Fore.LIGHTBLUE_EX
+    LP = colorama.Fore.LIGHTMAGENTA_EX
+    RS = colorama.Fore.RESET
 
 
 
@@ -53,14 +71,14 @@ def OBanner():
     if language == "en":
         print("----------------------------------------------------------------------------")
         print("Option    |   Tools Name | Description                                     |")
-        print("    1     | BlackBird    | Find Social Network Account With Name           |")
-        print("    2     | Cloudmare    | Find Any Server's Info                          |")
-        print("    3     | Holehe       | Find Any Socials Media Account With Email       |")
-        print("    4     | OSGINT       | Find Any Github Accont With Email               |")
-        print("    5     | ZoomEye      | Search Any Target's Info. You Need A API Key... |")
-        print("    6     | GHunt        | Find Google Account Info By Email               |")
-        print("    7     | PhoneNumber..| Find Target's Info With Phonenumer              |")
-        print("----------------------------------------------------------------------------")
+        print(f"{Color.LR}    1     | BlackBird    | Find Social Network Account With Name           |")
+        print(f"{Color.LP}    2     | Cloudmare    | Find Any Server's Info                          |")
+        print(f"{Color.LB}    3     | Holehe       | Find Any Socials Media Account With Email       |")
+        print(f"{Color.LR}    4     | OSGINT       | Find Any Github Accont With Email               |")
+        print(f"{Color.LP}    5     | ZoomEye      | Search Any Target's Info. You Need A API Key... |")
+        print(f"{Color.LB}    6     | GHunt        | Find Google Account Info By Email               |")
+        print(f"{Color.LR}    7     | PhoneNumber..| Find Target's Info With Phonenumer              |")
+        print(f"{Color.RS}----------------------------------------------------------------------------")
         print("st For Setting Pages")
     else:
         print("----------------------------------------------------------------------------")
