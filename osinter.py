@@ -55,7 +55,7 @@ class Color:
 
 
 def OBanner():
-    language = "en"
+    language = "vi"
     print(f"""
                                                
            _,.---._      ,-,--.   .=-.-..-._        ,--.--------.    ,----.               
@@ -83,17 +83,17 @@ def OBanner():
         print(f"{Color.RS}----------------------------------------------------------------------------")
         print("st For Setting Pages")
     else:
-        print("----------------------------------------------------------------------------")
-        print("Lựa chọn  |   Tên Công Cụ| Mô tả                                           |")
-        print("    1     | BlackBird    | Tìm tài khoản mạng xã hội bèng tên              |")
-        print("    2     | Cloudmare    | Tìm thông tin của máy chủ                       |")
-        print("    3     | Holehe       | Tìm tài khoản mạng xã hội bằng email            |")
-        print("    4     | OSGINT       | Tìm tài khoản Github bằng email                 |")
-        print("    5     | ZoomEye      | Tìm thông tin của mục tiêu, bạn cần API Key để..|")
-        print("    6     | GHunt        | Tìm thông tin tài khoản Google bằng email       |")
-        print("    7     | PhoneNumber..| Tìm thông tin của mục tiêu bằng Số điện thoại   |")
-        print("----------------------------------------------------------------------------")
-        print("st cho Trang Cài đặt")
+         print("----------------------------------------------------------------------------")
+        print("Lựa chọn    |   Tên  | Mô tả                                     |")
+        print(f"{Color.LR}    1     {Color.RS}|{Color.LR} BlackBird    {Color.RS}|{Color.LR} Tìm tài thoản mạng xã hội bằng tên              {Color.RS}|")
+        print(f"{Color.LP}    2    {Color.RS} |{Color.LP} Cloudmare    {Color.RS}|{Color.LP} Tìm thông tin của máy chủ                       {Color.RS}|")
+        print(f"{Color.LB}    3     {Color.RS}|{Color.LB} Holehe       {Color.RS}|{Color.LB} Tìm tài khoảm mạng xã hội bằng email            {Color.RS}|")
+        print(f"{Color.LR}    4     {Color.RS}|{Color.LR} OSGINT       {Color.RS}|{Color.LR} Tìm tài khoản Github bằng email                 {Color.RS}|")
+        print(f"{Color.LP}    5     {Color.RS}|{Color.LP} ZoomEye      {Color.RS}|{Color.LP} Tìm thông tin của mục tiêu. Bạn cần một API ... {Color.RS}|")
+        print(f"{Color.LB}    6     {Color.RS}|{Color.LB} GHunt        {Color.RS}|{Color.LB} Tìm thông tin tài khoản Google bằng email       {Color.RS}|")
+        print(f"{Color.LR}    7     {Color.RS}|{Color.LR} PhoneNumber..{Color.RS}|{Color.LR} Tìm thông tin bằng số điện thoại                {Color.RS}|")
+        print(f"{Color.RS}----------------------------------------------------------------------------")
+        print("st For Setting Pages")
 def Main():
     OBanner()
     while True:
