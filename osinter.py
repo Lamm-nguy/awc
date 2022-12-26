@@ -43,6 +43,7 @@ time.sleep(1)
 os.system("clear")
 
 class Color:
+    colorama.init(autoreset=True)
     LR = colorama.Fore.LIGHTRED_EX
     LB = colorama.Fore.LIGHTBLUE_EX
     LP = colorama.Fore.LIGHTMAGENTA_EX
