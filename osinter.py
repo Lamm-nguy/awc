@@ -83,7 +83,7 @@ def OBanner():
         print(f"{Color.RS}----------------------------------------------------------------------------")
         print("st For Setting Pages")
     else:
-         print("----------------------------------------------------------------------------")
+        print("----------------------------------------------------------------------------")
         print("Lựa chọn    |   Tên  | Mô tả                                     |")
         print(f"{Color.LR}    1     {Color.RS}|{Color.LR} BlackBird    {Color.RS}|{Color.LR} Tìm tài thoản mạng xã hội bằng tên              {Color.RS}|")
         print(f"{Color.LP}    2    {Color.RS} |{Color.LP} Cloudmare    {Color.RS}|{Color.LP} Tìm thông tin của máy chủ                       {Color.RS}|")
